@@ -52,7 +52,7 @@ const Review = () => {
         <button className='prev-btn' onClick={prevPerson}>
           <FaChevronLeft/>
         </button>
-        <button className='next-btn' nClick={nextPerson}>
+        <button className='next-btn' onClick={nextPerson}>
           <FaChevronRight/>
         </button>
         <button className='random-btn' onClick={randomPerson}>suprise me</button>
